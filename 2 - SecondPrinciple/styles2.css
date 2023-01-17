@@ -1,0 +1,46 @@
+/* OOCSS code */
+.sidebar {
+  left: 0;
+  padding: 5px;
+  margin: 5px;
+  position: absolute;
+  width: 240px;
+}
+
+.sidebar .list {
+  margin: 5px;
+}
+
+.list-header {
+  color: rebeccapurple;
+  font: 1rem;
+}
+
+.list-body {
+  color: rebeccapurple;
+  font: 1rem;
+}
+
+/* bad code */
+#sidebar {
+  left: 0;
+  padding: 5px;
+  margin: 5px;
+  position: absolute;
+  width: 240px;
+}
+
+#sidebar .list {
+  margin: 5px;
+}
+
+#sidebar .list .list-header {
+  color: rebeccapurple;
+  font: 1rem;
+}
+
+#sidebar .list .list-body {
+  background-color: rebeccapurple;
+  color: #fff;
+  font-size: 12px;
+}

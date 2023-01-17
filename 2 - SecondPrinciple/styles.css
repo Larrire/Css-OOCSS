@@ -1,0 +1,9 @@
+/* OOCSS code */
+.aside-title {
+  color: #333;
+}
+
+/* bad code */
+#sidebar h2 {
+  color: #333;
+}
