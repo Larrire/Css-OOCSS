@@ -1,0 +1,66 @@
+
+/* OOCSS code */
+
+  /* Structure */
+  .button {
+    align-items: center;
+    display: inline-flex;
+    height: 50px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+  }
+
+  /* Visual */
+  .button-skin {
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .button-secondary {
+    background-color: #cfcfcf;
+    color: #000;
+  }
+
+
+
+
+/* bad code */
+
+.button {
+  align-items: center;
+  background-color: #000;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-flex;
+  height: 30px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+.button-secondary {
+  align-items: center;
+  background-color: #cfcfcf;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  display: inline-flex;
+  height: 30px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 150px;
+}
