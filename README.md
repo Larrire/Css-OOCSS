@@ -3,6 +3,20 @@
 
   Criadora: Nicole Sullivan
 
+  O que seria um objeto no css?
+  Qualquer padrão visual que se repete e que pode 
+  ser transformado em um snippet independente.
+
+  O que é estrutura no css?
+  Tudo que é "invisível", width, height, margin, padding,
+  overflow, etc...
+  Estrutura trabalha em como as "coisas" são dispostas
+
+  O que é visual no css? 
+  Tudo o que é visível, cores, fontes, sombras, degradês, etc...
+
+  OBS: Estrutura não é apenas containers, todo componente tem estrutura e visual, um botão por exemplo tem propriedades invisíveis(estrutura) e propriedades visíveis(visual).
+
   Princípios do OOCSS:
 
     1º Separar estrura do visual
